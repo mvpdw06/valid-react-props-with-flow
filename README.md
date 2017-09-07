@@ -8,7 +8,7 @@
 $ npm install flow-bin babel-preset-flow
 ```
 
-## .babelrc 加上設定
+## .babelrc 加上設定
 
 ```
 {
@@ -40,7 +40,7 @@ $ npm install flow-bin babel-preset-flow
 
 > 注意：除了【被檢查】(export) 的 Component 中要用，【檢查】(import) 的 Component 也要用才會有效果！
 
-## 在 React Component 中宣告要檢查的 props
+## 在 React Component 中宣告要檢查的 props
 
 ```
 type Prop = {
