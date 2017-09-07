@@ -1,0 +1,5 @@
+// flow setting on VS Code.
+{
+  "flowide.pathToFlow": "flow",
+  "javascript.validate.enable": false
+}

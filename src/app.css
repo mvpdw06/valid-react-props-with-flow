@@ -1,0 +1,43 @@
+body {
+  background: #4a4a4a;
+  overflow: hidden;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: white;
+}
+
+img {
+  width: 99px
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 80px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes App-logo-spin-speedup {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(720deg); }
+  70% { transform: rotate(900deg); }
+  90% { transform: rotate(1020deg); }
+  100% { transform: rotate(1079deg); }
+}
+
+.imgContainer {
+  position: fixed
+}
+
+.instructions p {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
